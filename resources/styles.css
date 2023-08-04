@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+body {
+    background: url("./images/meal3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 100px;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+    line-height: 80px;
+    font-size: 105px;
+}
+
+thead li {
+    display: inline-block;
+}
+
+thead th {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 25px 20px;
+    margin-top: auto;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: hsla(19, 82%, 50%, 0.199);
+    font-size: 30px;
+}
+
+td {
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+}
+
+th, td {
+    width: 25%;
+    
+}
+
+tr {
+    background: hsla(34, 3%, 49%, 0.4);
+    
+}
+
+table {
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+.center {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+
+.nav {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    color: green;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-top: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+.nav li:hover{
+    color:white;
+    background: tomato;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav li a{
+    color: green;
+}
+
+.nav li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+/* responsive page */
+
+@media only screen and (max-width: 768px) {
+    * {
+        padding:0;
+        margin:0;
+    }
+
+    h1 {
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        font-size: 35px;
+    }
+    
+    td {
+        text-align: center;
+        line-height: 25px;
+        font-size: 15px;
+        color: white;
+        padding: 5px 10px;
+        font-weight: 700;
+        font-family: 'Oxygen', sans-serif;
+    }
+
+    thead th {
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 10px 10px;
+        margin-top: auto;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 520px0px;
+        background: hsla(19, 82%, 50%, 0.199);
+        font-size: 23px;
+    }
+
+    .center {
+        margin:0;
+        padding: auto;
+    }
+
+    .nav {
+        display: block;
+    }
+    .nav li {
+        font-size: 15px;
+        font-weight: bold;
+        padding: 5px 5px;
+        margin: 38px 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 50px;
+    }
+}
